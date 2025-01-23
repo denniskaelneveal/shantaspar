@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>formpage</title>
+    <style>
+        #mydiv{
+            display: flex;
+            margin: 0 auto;
+            padding: 50px;
+        }
+#me{
+    margin: 50px;
+    background-color: deepskyblue;
+    width: 500px;
+    height: 600px;
+
+}
+#me p{
+    padding-left: 30px;
+    color: white;
+
+}
+#me h1{
+    text-align: center;
+    color: white;
+}
+#you legend{
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+}
+input[type=text],input[type=email],input[type=tel]{
+    width: 100%;
+    height: 50px;
+    box-shadow: gray;
+    text-shadow: gray;
+    color: gray;
+
+}
+#you button{
+    border-radius: 40px;
+    background-color: deepskyblue;
+    margin: 50px;
+    font-size: larger;
+    width: 150px;
+    height: 50px;
+}
+#you form{
+    margin: 0 auto;
+}
+    </style>
+
+
+</head>
+<body>
+<div id="mydiv">
+    <div id="me">
+    <h1>Let's Chat</h1>
+    <p style="text-align: center">whether you have a question ,want</p>
+    <p  style="text-align: center">start a project or simply want to connect</p>
+    <br><br>
+    <p style="text-align: center">feel free to send a message in the</p>
+    <p style="text-align: center">contact form</p>
+</div>
+<div id="you">
+    <form action="">
+        <legend>Contact</legend>
+        <p>*required</p>
+        <input type="text"id="dname"placeholder="name*"required="required">
+        <br><br>
+        <input type="email" placeholder="Email*" required="required">
+        <br><br>
+        <input type="text" placeholder="company" required="required">
+        <br><br>
+        <input type="tel" placeholder="phone" required="required">
+        <br><br>
+        <textarea name="" id="person" cols="30" rows="10" placeholder="message" style="color: gray"></textarea>
+        <br><br>
+<button>submit</button>
+
+    </form>
+
+
+
+
+
+</div>
+
+</div>
+
+
+
+
+
+</body>
+</html>
